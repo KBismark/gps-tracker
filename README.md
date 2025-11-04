@@ -13,9 +13,9 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.    
 
 ## Notes on starting app
-> The socket transmission of data will not work in dev mode because of Angular's universal request handler. 
-> You must build the application and run the built app for it to work. Run `pnpm run build` to build and `pnpm run server` to start the server.
-> Then open your browser and navigate to `http://localhost:4000/` to view the Map and open `http://localhost:4000/track` as the driver.    
+> The socket transmission of data will not work in dev mode because of Angular's universal request handler.     
+> You must build the application and run the built app for it to work. Run `pnpm run build` to build and `pnpm run server` to start the server.    
+> Then open your browser and navigate to `http://localhost:4000/` to view the Map and open `http://localhost:4000/track` as the driver.        
 >
 
 ## Some tools used in this app 
