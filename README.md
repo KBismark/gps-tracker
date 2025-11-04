@@ -10,7 +10,20 @@ To start a local development server, run:
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.    
+
+## Notes on starting app
+> The socket transmission of data will not work in dev mode because of Angular's universal request handler. 
+> You must build the application and run the built app for it to work. Run `pnpm run build` to build and `pnpm run server` to start the server.
+> Then open your browser and navigate to `http://localhost:4000/` to view the Map and open `http://localhost:4000/track` as the driver.    
+>
+
+## Some tools used in this app 
+- Maptiler SDK (Requires API key) - (Get one for free on Maptiler)[https://cloud.maptiler.com/maps/]    
+- Angular with Server Side Rendering
+- Socket.io for real-time location updates    
+
+
 
 ## Code scaffolding
 
@@ -36,24 +49,10 @@ ng build
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Additional Notes
+> The socket transmission of data will not work in dev mode because of Angular's universal request handler. 
+> You must build the application and run the built app for it to work. Run `pnpm run build` to build and `pnpm run server` to start the app.
+> 
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
