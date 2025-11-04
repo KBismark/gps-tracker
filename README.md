@@ -1,6 +1,6 @@
 # GpsTracker
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+Real-time GPS Tracking MVP (Tracker + Viewer)
 
 ## Development server
 
@@ -13,13 +13,17 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.    
 
 ## Notes on starting app
-> The socket transmission of data will not work in dev mode because of Angular's universal request handler.     
-> You must build the application and run the built app for it to work. Run `pnpm run build` to build and `pnpm run server` to start the server.    
-> Then open your browser and navigate to `http://localhost:4000/` to view the Map and open `http://localhost:4000/track` as the driver.        
+> The socket transmission of data will not work in dev mode because of Angular's universal request handler.
+> 
+> You must build the application and run the built app for it to work.
+>
+> Run `pnpm run build` to build and `pnpm run server` to start the server.
+> 
+> Then open your browser and navigate to [http://localhost:4000/](http://localhost:4000/) to view the Map and open [http://localhost:4000/track](http://localhost:4000/track) as the driver.        
 >
 
 ## Some tools used in this app 
-- Maptiler SDK (Requires API key) - (https://cloud.maptiler.com/maps/)[Get one for free on Maptiler]    
+- Maptiler SDK (Requires API key) - [Get one for free on Maptiler](https://cloud.maptiler.com/maps)    
 - Angular with Server Side Rendering
 - Socket.io for real-time location updates    
 
