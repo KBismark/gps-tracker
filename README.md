@@ -19,7 +19,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 >
 
 ## Some tools used in this app 
-- Maptiler SDK (Requires API key) - (Get one for free on Maptiler)[https://cloud.maptiler.com/maps/]    
+- Maptiler SDK (Requires API key) - (https://cloud.maptiler.com/maps/)[Get one for free on Maptiler]    
 - Angular with Server Side Rendering
 - Socket.io for real-time location updates    
 
